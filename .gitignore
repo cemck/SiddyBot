@@ -1,5 +1,6 @@
 # Config file
 config.cfg
+/voice_files
 
 # General
 .DS_Store
