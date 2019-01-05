@@ -123,7 +123,7 @@ def load_voice(bot, update, args):
         # print('file_str: {}', file_str)
 
         with open(file_str, 'rb') as voice_file:
-            print('file_str: {}', file_str)
+            # print('file_str: {}', file_str)
             bot.send_voice(chat_id=chat_id, voice=voice_file)
     except Exception as err:
         # print('load_voice ERROR:\n')
